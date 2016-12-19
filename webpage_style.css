@@ -97,6 +97,7 @@ h4.information {
     
 }
 
+
 #menu_box ul li a {
 	
     display: block;
@@ -112,12 +113,39 @@ h4.information {
     border-radius: 3px;
 }
 
-#menu_box ul li a.selected, 
+
+#menu_box ul li a.selected {
+    background-color: #111;
+    color: white;
+}
+
 #menu_box ul li a:hover {
     background-color: #555;
     color: white;
 }
 
+#menu_box ul.sub {
+	
+    display:none;
+
+    transition: max-height 1s ease-out;
+}
+
+#menu_box ul.sub li  {
+	
+    margin : 0 0 0 16px;
+}
+
+#menu_box ul.sub li a:hover  {
+	
+    background-color: #333;
+    color: white;
+}
+
+#menu_box ul li:hover ul.sub {
+
+    display : block;
+}
 
 #text_box {
 	
