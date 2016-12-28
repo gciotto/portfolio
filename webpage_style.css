@@ -177,9 +177,7 @@ h3.section_title {
 	
 	word-spacing: 5px;
 	
-	padding-left : 1%;
-	padding-top : 1%;
-	padding-bottom : 1%;
+	padding : 20px 20px 20px 20px;
 	
 	margin : 0;
 }
@@ -192,15 +190,16 @@ h3.text {
 	font-size: 16px;
 	
 	word-spacing: 5px;
+    line-height: 25px;
 	
-	padding : 1% 1% 1% 1%;
+	padding : 10px 20px 10px 20px;
 	
 	margin : 0;
 }
 
 #text_box ul {
 	
-    list-style-type:  lower-roman;
+    list-style-type:  square;
     
     margin: 0;
     
