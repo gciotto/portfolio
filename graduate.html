@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="webpage_style.css">
+
+<meta charset="UTF-8">
+
+<title>Gustavo CIOTTO PINTON's Home Page</title>
+
+</head>
+<body>
+	
+	<div id = "title_box">
+		<h1 class = "page_title"> Gustavo CIOTTO PINTON </h1>
+		<h4 class = "information"> Computer Engineer & Software Developer @ <a target="_blank" 
+				href ="http://lnls.cnpem.br/">Brazilian Synchrotron Light Laboratory - LNLS</a></h4>
+		<h4 class = "information"> <a href="mailto:gustavociotto@gmail.com">gustavociotto@gmail.com</a></h4>    
+		<h4 class = "information"> <a href="http://github.com/gciotto">github.com/gciotto</a></h4>
+        <h4 class = "information"> <a href="http://www.linkedin.com/in/gustavociotto">linkedin</a></h4>
+	</div>
+
+	<div id = "menu_box">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="about.html">About me</a></li>
+          <li><a href="graduate.html" class="selected">Graduate projects </a></li>
+		  <li><a>Undergraduate projects </a>
+            <ul class="sub">
+                <li><a href="unicamp.html"> @ University of Campinas </a></li>
+                <li><a href="supelec.html"> @ École Centrale Supélec </a></li>
+            </ul>
+          </li>
+		</ul>
+	</div>
+	
+	<div id = "text_box">
+	
+	<h3 class = "section_title"> Graduate projects @ <a href="http://www.ic.unicamp.br/en">Institute of Computing - University of Campinas</a></h3>
+
+    <h3 class = "text">This section is dedicated to the projects developed during my master degree at UNICAMP. Considering that I have not obtained this degree yet, this page is not finished and new projects will be added in a close future! The list below present a short summary of the taken courses so far: </h3>
+
+    <ul>
+		  <li><a href="#mo601">MO601 - Computer Architecture II</a></li>
+	</ul>
+
+	<hr width="75%" align="CENTER" size="1" noshade="">	
+
+	<a name="mo601"></a>
+	<h3 class = "section_title">MO601 - Computer Architecture II</h3>
+
+    <h3 class = "text">Four projects are developed during this course. The first one consisted in counting the number of executed instructions of each benchmark present in SPEC CPU2006 and was achieved through the implementation of an instrumentation tool based on Intel's Pin libraries. Besides this tool, the goal of this project was to introduce the students to the suite of benchmarks commented previously and to the Pin features itself. The ojective of the second project was to develop a Pin tool capable of counting the number of memory accesses considering two page sizes: 4KB and 4MB. We analyzed the differences and simulated using three cache levels and a page table with a 3-level hierarchy. Finally, the last two projects were based on the paper 'Accelerating Decoupled Look-ahed via Weak Dependence Removal: A Metaheuristic Aproach' written by Parihar and Huang and published in 2014 at HPCA. The goal of the third project was to reproduce an element (figure, table...) present in this paper, while the objective of the fourth was to extend it. All projects can be found in this Github <a href="https://github.com/gciotto/MO601">repository</a>.</h3>
+
+</body>
+</html>
