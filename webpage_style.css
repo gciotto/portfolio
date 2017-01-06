@@ -6,7 +6,7 @@ body {
 }
 
 #title_box {
-	
+
 	background-color: rgb(255,255,255);
 	
 	position: relative;
@@ -16,13 +16,35 @@ body {
 	float : left;
 
 	margin-top: 30px;
-	
-	padding-bottom : 5px;
+
+	padding-top : 15px;	
+	padding-bottom : 15px;
 	
 	border-bottom : 2px solid rgba(155, 150, 150, 0.4);
 	border-top : 2px solid rgba(155, 150, 150, 0.4);
 	
 		
+}
+
+#text {
+    width : 75%;
+    display : inline-block;
+
+}
+
+#image {
+
+    float: right;
+    display : inline-block;
+
+    width : 25%;
+}
+
+img.myself {
+    display: block;
+    margin: auto;
+    width : 90%;
+    border-radius: 15px;
 }
 
 h1.page_title {
@@ -54,6 +76,7 @@ h4.information a {
 
 h4.information {
 	
+    width : 100%;
 	
 	font-weight : normal;
 	font-size: 16px;
